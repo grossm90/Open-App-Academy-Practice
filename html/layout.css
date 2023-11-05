@@ -1,0 +1,33 @@
+div,
+p {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px;
+}
+
+.heading {
+        position: relative;
+        width: 100%;
+}
+
+fieldset {
+        width: 75%;
+}
+
+label {
+        padding-left: 5px;
+}
+
+.checks {
+        max-width: 150px;
+}
+
+.radios,
+.radio-selection,
+.checks,
+.check-selection {
+        flex-direction: row;
+}
