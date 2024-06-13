@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.flex-head-left {
+    flex: 33%;
+    padding: 10px;
+}
+
+.flex-head-mid {
+    flex: 33%;
+    padding: 10px;
+}
+
+.flex-head-right {
+    flex: 33%;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+}
+
+.navbar a {
+    flex: 25%;
+}
