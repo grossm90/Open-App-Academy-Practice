@@ -31,3 +31,19 @@
 .navbar a {
     flex: 25%;
 }
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article {
+   width: 33%;
+   padding: 20px;
+}
+
+aside {
+    width: 33%;
+    padding: 20px;
+}
